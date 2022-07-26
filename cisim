@@ -1,18 +1,18 @@
 #include<stdio.h>
 int main(){
 
-    int tabanalanı;
+    int floorarea;
     int h;
-    int hacim;
+    int v;
 
-    printf("taban alanı giriniz:");
-    scanf("%d",&tabanalanı);
+    printf("enter floor area:");
+    scanf("%d",&floorarea);
     
-    printf("yukseklik giriniz:");
+    printf("enter height:");
     scanf("%d",&h);
 
-    hacim =(tabanalanı)*(h);
-    printf("cismin hacmi %d dir.\n",hacim);
+    v =(floorarea)*(h);
+    printf("volume of the object:\n",v);
 
      return 0;
 }
