@@ -1,0 +1,18 @@
+#include<stdio.h>
+int main(){
+
+    int tabanalanı;
+    int h;
+    int hacim;
+
+    printf("taban alanı giriniz:");
+    scanf("%d",&tabanalanı);
+    
+    printf("yukseklik giriniz:");
+    scanf("%d",&h);
+
+    hacim =(tabanalanı)*(h);
+    printf("cismin hacmi %d dir.\n",hacim);
+
+     return 0;
+}
