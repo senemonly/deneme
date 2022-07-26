@@ -10,7 +10,7 @@ int main() {
     printf("%d\n",(int)3.1*6);//int değerine çevirmek istediğimiz değerin önüne paranetz içinde (int) ekliyoruz.
     printf("%f\n",(float)3);
     printf("%d\n",3);
-    printf("%f\n",3);// neden 0.000000 şeklinde çıktı verdi????
+    printf("%f\n",(float)3);
     return 0;
 
 
