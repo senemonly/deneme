@@ -1,0 +1,19 @@
+#include <stdio.h>
+ int main()
+ {
+    int x = 10
+
+    printf("x = %d\n",x);
+    printf("x = %d\n",x++);  // önce x i yazdırdır daha sonra değeri arttırdır. 
+    printf("x = %d\n",x);
+    printf("\n\n");
+   
+    int a = 10;
+    
+    printf("a = %d\n",a);
+    printf("a = %d\n",++a);  // önce x i arttırır daha sonr işlem yapar
+    printf("a = %d\n",a);
+    return;0
+
+    
+}
