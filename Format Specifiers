@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+
+    int a = 42;
+    char b = 66;
+    char b2 = 'B'; // b2 is in %d (line 10) so it takes its equivalent in the ASCII table.
+    char b3 = 'B';
+    float c = 4.2;
+    double d = 0.21;
+    printf("%d %c %d %c %.2f %f \n", a,b,b2,b3,c,d); // %.2f ---> takes two digits after the dot.
+
+    printf("%d byte\n",sizeof(char));   
+    printf("%d byte\n",sizeof(int));
+    printf("%d byte\n",sizeof(short int));     //size of format specifiers
+    printf("%d byte\n",sizeof(long int));
+    printf("%d byte\n",sizeof(float));
+
+
+    return 0;
+
+}
