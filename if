@@ -1,0 +1,21 @@
+#include<stdio.h>
+int main(){
+
+int age;
+ printf("please enter age:");
+ scanf("%d",&age);
+
+ if (age < 18){
+
+
+    printf(" your age is not suitable!");
+
+ }
+
+ else {
+
+    printf(" you can login");
+ }
+
+    return 0;
+}
