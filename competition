@@ -17,7 +17,7 @@ average = (score1 + score2) /2.0;
 if (average > 70) {
     printf("you are in the final!!\n");
 }
-else if (average > 50) {
+else if (average > 50 && average <= 70) {
     printf("you lose but you can win a gift.\n");
     printf("please enter your judgescore:\n");
     scanf("%d",&judgescore);
