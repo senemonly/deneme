@@ -1,0 +1,44 @@
+#include<stdio.h>
+#include <ctype.h>
+int main(){
+
+char A,B,C;
+char score;
+int note;
+// 0 < note < 10
+printf("please enter score:");
+scanf("%c", &score);
+
+score = toupper(score);
+
+switch(score) {
+    case 'A' :
+       printf("Nice.You passed the lesson. 4.00");
+       break;
+    case 'B' :
+       printf("Good.You passed the lesson. 3.00");
+       break;
+    case 'C' :
+       printf("Not so well. You can fail the class. 2.00\n");
+
+       printf("enter teacher's opinion note");
+       scanf("%d",&note);
+       if (note < 5)
+       {
+         printf("You failed the lesson.");
+         break;
+       }
+       printf("you can pass the lesson.");
+       break;
+    case 'D' :
+       printf("you failed the class");
+       break;
+    case 'F' :
+       printf("you failed the class");
+       break;
+    default :
+       printf("invalid character.");
+       break;    
+}
+ return 0;
+}
